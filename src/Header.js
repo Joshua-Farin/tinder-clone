@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css';
 import PersonIcon from '@mui/icons-material/Person';
 import { IconButton } from '@mui/material';
+import ForumIcon from '@mui/icons-material/Forum';
 
 function Header() {
   return (
@@ -16,6 +17,7 @@ function Header() {
         alt=''
       />
 
+      <ForumIcon fontSize='large' className='header__icon' />
       
     </div>
   )
